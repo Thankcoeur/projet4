@@ -1,261 +1,192 @@
-body {
-
-    padding: 0;
-    margin: 0;
- }
-/**        header          **/
-
- header .logo {
-
-background-image: url('img/la-chouette-agence.svg');
-height: 100px;
-width: 200px;
-background-size: 100% 100%;
-background-position: center center;
-
-
-
-
-}
-header  {
-   color: white;
-   width: 100%;
-
-   position: fixed;
-   background-color: rgba(0, 0, 0, 0.678)
-}
-
- header nav {
-display: flex;
-
-justify-content: center;
-width: 100%; 
-height: 90px;
-
-    
-   
-}
- header .nav {
-
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-     width: 900px;
-}
- header .lien {
-
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-decoration: none;
-    
-}
-
- header a {
-    
-
-
-    text-decoration: none;
-    color: inherit;
-}
-
-/** End header **/
-
-/** baniere **/ 
-
-.baniere  {
-    align-items: center;
-    justify-content: center;
-    
-display: flex;
-flex-direction: column;
-background-image: url("img/la-chouette-agence-banniere.webp");
-background-repeat: no-repeat;
-width: 100%;
-height: 400px;
-background-attachment: fixed;
-
-
-
-}
-
-/** end baniere **/
-
-/**   competences  **/
- .competences {
-     margin-top: 50px;
-
-    display: flex;
-    justify-content: center;
- } 
-
- .content {
-     display: flex ;
-     justify-content: center;
-     flex-direction: column;
-
-    width: 900px;
- }
-
- .content-competence {
-display: grid; 
-grid-template-columns: 1fr 1fr 1fr ;
-
-
-
-
-
- }
- .competences span{
-font-size: 40px; 
-color: blue;
-
-    
- }
-
- .competence .image {
-
-    text-align: center;
- }
- .competence h2 {
-
-text-align: center;
-
- }
-
- /** end Competence **/
-
-
- /** Presentation **/
-
- .presentation {
-    margin-top: 100px;
-
-width: 100%;
-height: 600px;
-background-image: url('img/image-de-presentation.webp');
-background-attachment: fixed;
-display: flex;
-justify-content: center;
-align-items: center;
-   
- }
-
- .presentation .container {
-    color: yellow;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-
-width: 600px;
-height: 400px;
-background-color: rgba(0, 0, 0, 0.342);
-
- }
-
-
-
- .presentation .container p {
-
-
-   padding: 20px;
- }
-
-
-
- /** realisation **/
-
-
-
- .realisation .container {
-    text-align: center;
-    width: 900px;
-    margin: auto;
-
-
-
-
-
-
-
- }
- .realisation .content {
-    display: grid;
-
-
-   grid-template-columns: 1fr 1fr ;
-   
- }
-
-
- /** footer **/ 
-
- .social {
-    color: white;
-
-   background-color: #B65E41;
-   padding: 20px;
- }
- .social p {
-
-   text-align: center;
- }
-
- .social .container  {
-    margin: auto;
-    width: 900px;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    text-align: center;
-    text-decoration: none;
-  
-    font-size: 20px;
-    grid-row-gap: 20px;
-
-
-
- }
-
- .social .container a {
-
-  
- }
-
-
-
-.form {
-
-
-
-
-   margin: auto;
-   width: 900px;
-  
-}
-
-.form label {
-   display: block;
-
- width: 100px;
-}
-
-.form .container {
-
-display: flex;
-justify-content: center;
-align-items: center;
-
-
-
-}
-.form .left div {
-
-   
-   padding: 20px;
-}
-.form h3 {
-
-   text-align: center;
-}
+                    body {
+                        padding: 0;
+                        margin: 0;
+                        font-size: 14px;
+                    }
+                    /**        header          **/
+                    
+                    header .logo {
+                        background-image: url('img/la-chouette-agence.svg');
+                        height: 100px;
+                        width: 200px;
+                        background-size: 100% 100%;
+                        background-position: center center;
+                    }
+                    
+                    header {
+                        color: white;
+                        width: 100%;
+                        position: fixed;
+                        background-color: rgba(0, 0, 0, 0.678)
+                    }
+                    
+                    header nav {
+                        display: flex;
+                        justify-content: center;
+                        width: 100%;
+                        height: 90px;
+                    }
+                    
+                    header .nav {
+                        display: grid;
+                        grid-template-columns: 1fr 2fr;
+                        width: 900px;
+                    }
+                    
+                    header .lien {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        text-decoration: none;
+                    }
+                    
+                    header a {
+                        text-decoration: none;
+                        color: inherit;
+                    }
+                    /** End header **/
+                    /** baniere **/
+                    
+                    .baniere {
+                        align-items: center;
+                        justify-content: center;
+                        display: flex;
+                        flex-direction: column;
+                        background-image: url("img/la-chouette-agence-banniere.webp");
+                        background-repeat: no-repeat;
+                        width: 100%;
+                        height: 400px;
+                        background-attachment: fixed;
+                    }
+                    /** end baniere **/
+                    /**   competences  **/
+                    
+                    .competences {
+                        margin-top: 50px;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                    .content {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        width: 900px;
+                    }
+                    
+                    .content-competence {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr 1fr;
+                    }
+                    
+                    .competences span {
+                        font-size: 40px;
+                        color: blue;
+                    }
+                    
+                    .competence .image {
+                        text-align: center;
+                    }
+                    
+                    .competence h2 {
+                        text-align: center;
+                    }
+                    
+                    .competences .title {
+                        text-align: center;
+                        font-size: 18px;
+                        padding: 20px;
+                    }
+                    /** end Competence **/
+                    /** Presentation **/
+                    
+                    .presentation {
+                        margin-top: 100px;
+                        width: 100%;
+                        height: 600px;
+                        background-image: url('img/image-de-presentation.webp');
+                        background-attachment: fixed;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .presentation .container {
+                        color: yellow;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: center;
+                        color: white;
+                        width: 600px;
+                        height: 400px;
+                        background-color: rgba(0, 0, 0, 0.342);
+                    }
+                    
+                    .presentation .container p {
+                        padding: 20px;
+                    }
+                    /** realisation **/
+                    
+                    .realisation .container {
+                        text-align: center;
+                        width: 900px;
+                        margin: auto;
+                    }
+                    
+                    .realisation .content {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                    }
+                    
+                    .realisation .item {
+                        width: 270px;
+                    }
+                    /** footer **/
+                    
+                    .social {
+                        color: white;
+                        background-color: #B65E41;
+                        padding: 20px;
+                    }
+                    
+                    .social p {
+                        text-align: center;
+                    }
+                    
+                    .social .container {
+                        margin: auto;
+                        width: 900px;
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        text-align: center;
+                        text-decoration: none;
+                        font-size: 20px;
+                        grid-row-gap: 20px;
+                    }
+                    
+                    .social .container a {}
+                    
+                    .form {
+                        margin: auto;
+                        width: 900px;
+                    }
+                    
+                    .form label {
+                        display: block;
+                        width: 100px;
+                    }
+                    
+                    .form .container {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .form .left div {
+                        padding: 20px;
+                    }
+                    
+                    .form h3 {
+                        text-align: center;
+                    }
